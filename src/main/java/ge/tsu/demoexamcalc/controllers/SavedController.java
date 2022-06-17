@@ -54,6 +54,7 @@ public class SavedController implements Initializable {
         for (SavedResult savedResult : savedResults) {
             if(savedResult.getID().equals(Integer.valueOf(id))){
              hBox = createHBox(savedResult, i);
+             log.info("Result: " + savedResult + " was deleted");
              break;
             }
             i++;

@@ -29,13 +29,13 @@ public class SavedResult {
     @Override
     public String toString() {
         return "SavedResult: " +
-                "ID=" + ID +
-                ", geoP=" + geoP +
-                ", fLangP=" + fLangP +
-                ", thirdSubject='" + thirdSubject + '\'' +
-                ", thirdSubjectP=" + thirdSubjectP +
-                ", calculated=" + calculated +
-                ", grant=" + grant;
+                "ID= " + ID +
+                ", geoP = " + geoP +
+                ", fLangP = " + fLangP +
+                ", thirdSubject = " + thirdSubject + '\'' +
+                ", thirdSubjectP = " + thirdSubjectP +
+                ", calculated = " + calculated +
+                ", grant = " + grant;
     }
 
     public Integer getID() {
