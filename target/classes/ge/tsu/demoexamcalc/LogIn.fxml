@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ge.tsu.demoexamcalc.controllers.LogInController">
+   <children>
+      <VBox alignment="CENTER" fillWidth="false" prefHeight="200.0" spacing="5.0">
+         <children>
+            <Label text="Username" />
+            <TextField fx:id="Uname" maxWidth="-Infinity" minWidth="-Infinity" />
+            <Label text="Password" />
+            <PasswordField fx:id="pwd" prefHeight="25.0" prefWidth="149.0" />
+            <HBox alignment="CENTER" prefHeight="96.0" prefWidth="600.0" spacing="20.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onLogInClick" text="Log in" />
+                  <Button mnemonicParsing="false" onAction="#onRegisterClick" text="Register" />
+               </children>
+            </HBox>
+            <Label fx:id="warning" style="-fx-text-fill: rgb(255,0,0)" />
+         </children>
+      </VBox>
+   </children>
+</StackPane>
